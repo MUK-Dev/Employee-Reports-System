@@ -1,0 +1,39 @@
+/* -----Default html tags styles */
+body {
+	background-image: linear-gradient(
+		rgb(255, 255, 255),
+		rgba(187, 187, 187, 0.691)
+	);
+
+	min-height: 100vh;
+	width: 100%;
+}
+
+/* -------ID styles------- */
+#welcome {
+	min-height: 100vh;
+	width: 100%;
+}
+
+#nav-filters {
+	padding: 0 10px;
+}
+
+/* ----- Classes styles------- */
+.sidenav {
+	padding-top: 20px;
+}
+
+.brand-logo i {
+	margin-left: 30px;
+}
+
+@media only screen and (min-width: 993px) {
+	nav a.sidenav-trigger {
+		display: inherit;
+	}
+}
+
+.dropdown-content {
+	width: auto !important;
+}
